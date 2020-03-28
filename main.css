@@ -1,0 +1,34 @@
+body {
+    background-color: lavender;
+}
+
+.main-landing {
+   text-align: center;
+   padding-top: 225px;
+}
+
+.watch-now {
+    background-color: gray;
+    color: azure;
+}
+
+.e-email {
+    background-color: gray;
+    
+}
+
+.p-password {
+    background-color: gray;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+ul > li {
+    list-style-type: none;
+    text-align: right;
+}
