@@ -1,10 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: lavender;
 }
-
+nav > h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+footer {
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+.footer {
+    padding-top: 200px;
+}
 .main-landing {
    text-align: center;
    padding-top: 225px;
+}
+.landing-text {
+    text-align: left;
+    line-height: 1.5em;
+    margin: .5em;
 }
 
 .watch-now {
@@ -31,4 +52,47 @@ body {
 ul > li {
     list-style-type: none;
     text-align: right;
+    margin-right: 1em;
 }
+.file {
+    background-color: gray;
+}
+.video-home{
+    border: 2px solid black;
+    margin: auto;
+}
+.video-display {
+    text-align: center;
+    
+}
+
+.form-uploads {
+    text-align: center;
+}
+.more-videos-div {
+    text-align: center;
+}
+
+.more-videos {
+    background-color: gray;
+    font-size: large;
+}
+span {
+    font-size: 40px;
+}
+.main-home > p {
+    text-align: center;
+}
+
+ @media(min-width: 48em) {
+    .video-display {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2em;
+    }
+    .landing-text {
+        text-align: center;
+        line-height: 1.5em;
+    }
+ }
+  
